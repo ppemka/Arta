@@ -1,0 +1,13 @@
+const vm=require('node:vm'),fs=require('node:fs'),assert=require('node:assert/strict');
+const el=()=>({events:{},addEventListener(n,f){this.events[n]=f},setAttribute(k,v){this[k]=v}});
+const qs=Array.from({length:16},()=>({...el(),open:false}));
+const enlarged={},caption={},viewer={...el(),querySelector:()=>enlarged,showModal(){this.open=true},close(){this.open=false}};
+const image={src:'assets/image-0.png',alt:'Minska'};
+const imgButton={...el(),querySelector:()=>image,closest:()=>({querySelector:()=>({innerHTML:'Ilustrācija · avots'})})};
+const expand=el(),close=el(),print=el(),win={events:{},addEventListener(n,f){this.events[n]=f},print(){this.printed=true}};
+const nodes={'#viewer':viewer,'#viewer-caption':caption,'#close-viewer':close,'#expand':expand,'#print':print};
+vm.runInNewContext(fs.readFileSync('app.js','utf8'),{document:{querySelector:s=>nodes[s],querySelectorAll:s=>s==='.qa details'?qs:[imgButton]},window:win});
+imgButton.events.click();assert.equal(viewer.open,true);assert.equal(enlarged.src,image.src);assert.equal(caption.innerHTML,'Ilustrācija · avots');close.events.click();assert.equal(viewer.open,false);
+expand.events.click();assert(qs.every(q=>q.open));expand.events.click();assert(qs.every(q=>!q.open));
+qs[2].open=true;win.events.beforeprint();assert(qs.every(q=>q.open));win.events.afterprint();assert.equal(qs[2].open,true);assert.equal(qs[1].open,false);print.events.click();assert(win.printed);
+console.log('PASS: image viewer, captions, close, expand/collapse, print state restoration');

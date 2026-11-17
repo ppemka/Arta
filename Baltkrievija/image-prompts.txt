@@ -1,0 +1,19 @@
+Rīks: iebūvētais OpenAI imagegen. Datums: 17.11.2026.
+assets/image-0.png
+Use case: historical-scene. Create a horizontal black and white editorial illustration for a Latvian alternate-history newspaper about Belarus 2020. A wide panoramic view of monumental Minsk Independence Square government architecture, dramatic cloudy sky, no people recognizable. Powerful newspaper halftone, grainy silver gelatin photographic aesthetic, high contrast, documentary composition but explicitly illustrative, no text, no watermark. Save image for website asset.
+
+assets/image-1.png
+Use case: historical-scene. Create a horizontal black and white editorial illustration for a Latvian alternate-history newspaper about Belarus 2020. A crowd of peaceful Belarusian demonstrators seen from behind, flowers raised, wide city street, no legible slogans. Powerful newspaper halftone, grainy silver gelatin photographic aesthetic, high contrast, documentary composition but explicitly illustrative, no text, no watermark. Save image for website asset.
+
+assets/image-2.png
+Use case: historical-scene. Create a horizontal black and white editorial illustration for a Latvian alternate-history newspaper about Belarus 2020. A close-up still life of sealed ballot envelopes, paper ballots and a transparent ballot box on a desk. Powerful newspaper halftone, grainy silver gelatin photographic aesthetic, high contrast, documentary composition but explicitly illustrative, no text, no watermark. Save image for website asset.
+
+assets/image-3.png
+Use case: historical-scene. Create a horizontal black and white editorial illustration for a Latvian alternate-history newspaper about Belarus 2020. An empty solemn press conference room with microphones, rows of chairs and a dark curtain, no logos. Powerful newspaper halftone, grainy silver gelatin photographic aesthetic, high contrast, documentary composition but explicitly illustrative, no text, no watermark. Save image for website asset.
+
+assets/image-4.png
+Use case: historical-scene. Create a horizontal black and white editorial illustration for a Latvian alternate-history newspaper about Belarus 2020. An editorial portrait illustration of Alexander Lukashenko in 2020, stern expression, suit, no text. Powerful newspaper halftone, grainy silver gelatin photographic aesthetic, high contrast, documentary composition but explicitly illustrative, no text, no watermark. Save image for website asset.
+
+assets/image-5.png
+Use case: historical-scene. Create a horizontal black and white editorial illustration for a Latvian alternate-history newspaper about Belarus 2020. A street-level view of Minsk residents in a solidarity line holding flowers, anonymous faces, no flags. Powerful newspaper halftone, grainy silver gelatin photographic aesthetic, high contrast, documentary composition but explicitly illustrative, no text, no watermark. Save image for website asset.
+
